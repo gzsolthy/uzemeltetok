@@ -1,0 +1,21 @@
+select_table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  float: center;
+  
+  border-left: 2px solid rgba(99, 77, 161, 0.54);
+  border-top: 2px solid rgba(0, 0, 0, 1);
+  border-right: 2px solid rgba(0, 0, 0, 1);
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
