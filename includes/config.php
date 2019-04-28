@@ -1,15 +1,8 @@
 <?php
-/*$db_host = "127.0.0.1:8080";
-$db_user = "g189";
-$db_pass = "Pa55w.rd";
-$db_database = "uzemeltetok";*/
-
-//$DB_SERVER = "127.0.0.1:8080";
-
-define("DB_SERVER", "127.0.0.1");
-define("DB_USER", "g189");
-define("DB_PASS", "Pa55w.rd");
-define("DB_NAME", "uzemeltetok");
+define("DB_SERVER", "");
+define("DB_USER", "");
+define("DB_PASS", "");
+define("DB_NAME", "");
 
 define("TBL_CONFIGURATIONS", "konfiguracio");
 define("TBL_AUTOMATA_ADATOK", "automata_adatok");
